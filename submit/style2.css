@@ -1,0 +1,37 @@
+input{
+    width: 75%;
+    height: 25%;
+    font-size: 30px;
+}
+#plates{
+    background-color: red;
+    color: white;
+    height: 25%;
+    text-align: center;
+}
+#add{
+    height: 25%;
+    font-size: 30px;
+}
+#myUL{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+.close{
+    color:black;
+    float: right;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li:nth-child(odd) {
+    background: #b6a8a8;
+}
+#submit{
+float: right;
+margin:10% 10% 0px 0px;
+font-size: 30px;
+}
