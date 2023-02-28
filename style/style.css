@@ -4,7 +4,7 @@
     position:relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/assist/R.jpg);
+    background-image: url(../assist/R.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -49,7 +49,7 @@
 }
 .div2{
     height: 100%;
-    background-image: url(/assist/q.jpg);
+    background-image: url(../assist/q.jpg);
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: 100%;
@@ -88,7 +88,7 @@
 }
 
 .table-flx{
-    background-image: url(/assist/wood.jpg);
+    background-image: url(../assist/wood.jpg);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
