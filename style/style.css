@@ -48,11 +48,12 @@
     transition: 0.3s;
 }
 .div2{
-    /* width: 100%; */
+    height: 100%;
     background-image: url(/assist/q.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15% 0 0 15%;
+    /* background-size: cover; */
+    background-size: 100%;
+    
 }
 
 #sec{
@@ -60,15 +61,16 @@
 }
 
 .flx-items{
+    padding: 12% 0 0 15%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: flex-start;
-    gap: 15vh;
+    /* gap: 15vh; */
 
 }
 #phone{
-    margin: 8% 0 0 8%;
+    margin: 10% 0 0 20%;
 }
 
 .btn2{
@@ -78,6 +80,7 @@
     background-color: rgb(41, 29, 29);
     color: white;
     font-size: 25px;
+    margin-top: 7%;
 }
 .btn2:hover{
     background-color:rgb(73, 173, 173) ;
@@ -95,20 +98,21 @@
 .product{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 #sbtitles{
     text-align: center;
     color: white;
     height: 50px;
-    margin:5px 5px;
     background-color:rgb(63, 22, 22);
 
 }
 .sbtitle{
     font-size: 30px;
 }
+
 .names{
-    padding: 15% 0 0 15%;
+    /* padding: 15% 0 0 15%; */
     font-size: 30px;
     color: white;
 }
@@ -116,6 +120,19 @@ a{
     color: white;
 }
 .imgFood{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width:520px) {
+    .imgFood{
+        height: 200px;
+        width: 200px;
+    }
+    .btn2{
+        font-size: 10px;
+    }
+    #phone{
+        font-size: 10px;
+        margin:4% 0 0 19%;
+    }
 }
