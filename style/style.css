@@ -135,4 +135,11 @@ a{
         font-size: 10px;
         margin:4% 0 0 19%;
     }
+    .names{
+       font-size: 20px;
+    }
+    .s1{
+       height: 150px;
+       width: 150px;
+    }
 }
