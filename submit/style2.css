@@ -91,7 +91,6 @@ font-size: 30px;
         width: auto;
     }
     #add{
-        margin-top: 0px;
         font-size: 15px
     }
     #plates{
@@ -106,7 +105,7 @@ font-size: 30px;
         font-size: 15px;
     }
     .close{
-        font-size: 15px;
+        font-size: 12px;
         height: 15px;
     }
 }
