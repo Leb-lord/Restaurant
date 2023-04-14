@@ -85,6 +85,28 @@ font-size: 30px;
     #flex{
         display: flex;
         flex-wrap: wrap;
-    
+    }
+    #create{
+        font-size: 15px;
+        width: auto;
+    }
+    #add{
+        margin-top: 0px;
+        font-size: 15px
+    }
+    #plates{
+        font-size: 20px;
+    }
+    select,label{
+        height: 20px;
+        width: 80px;
+        font-size: 15px;
+    }
+    #myUL,#submit{
+        font-size: 15px;
+    }
+    .close{
+        font-size: 15px;
+        height: 15px;
     }
 }
