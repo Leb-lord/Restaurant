@@ -5,8 +5,8 @@
     height: 100vh;
     width: 100%;
     background-image: url(../assist/R1.jpg);
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
