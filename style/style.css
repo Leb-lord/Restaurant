@@ -2,11 +2,11 @@
     /* display: block  ; */
     overflow: hidden;
     position:relative;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-image: url(../assist/R.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
 
 }
 
